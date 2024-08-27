@@ -1,0 +1,6 @@
+{
+  "name": "Noi Mode",
+  "version": "0.1.6",
+  "sync": "https://github.com/yourusername/noi-config/blob/main/noi.mode.json",
+  "modes": []
+}
