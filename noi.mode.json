@@ -1,6 +1,91 @@
 {
   "name": "Noi Mode",
-  "version": "0.1.6",
+  "version": "0.1.9",
   "sync": "https://github.com/zarmonela/noi-config/blob/main/noi.mode.json",
-  "modes": []
+  "modes": [
+    {
+      "id": "noi@apps",
+      "parent": 0,
+      "dir": true,
+      "text": "Apps"
+    },
+    {
+      "id": "noi:chatgpt",
+      "parent": "noi@apps",
+      "text": "ChatGPT",
+      "url": "https://chat.openai.com"
+    },
+    {
+      "id": "noi:calendar",
+      "parent": "noi@apps",
+      "text": "Google Calendar",
+      "url": "https://calendar.google.com"
+    },
+    {
+      "id": "noi:translate",
+      "parent": "noi@apps",
+      "text": "Google Translate",
+      "url": "https://translate.google.com"
+    },
+    {
+      "id": "noi:youtube",
+      "parent": "noi@apps",
+      "text": "YouTube",
+      "url": "https://www.youtube.com"
+    },
+    {
+      "id": "noi:gmail",
+      "parent": "noi@apps",
+      "text": "Gmail",
+      "url": "https://mail.google.com"
+    },
+    {
+      "id": "noi:github",
+      "parent": "noi@apps",
+      "text": "GitHub",
+      "url": "https://github.com"
+    },
+    {
+      "id": "noi:discord",
+      "parent": "noi@apps",
+      "text": "Discord",
+      "url": "https://discord.com"
+    },
+    {
+      "id": "noi:drive",
+      "parent": "noi@apps",
+      "text": "Google Drive",
+      "url": "https://drive.google.com"
+    },
+    {
+      "id": "noi:spotify",
+      "parent": "noi@apps",
+      "text": "Spotify",
+      "url": "https://open.spotify.com"
+    },
+    {
+      "id": "noi:gemini",
+      "parent": "noi@apps",
+      "text": "Gemini",
+      "url": "https://gemini.google.com"
+    },
+    {
+      "id": "noi:copilot",
+      "parent": "noi@apps",
+      "text": "Copilot",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "id": "noi:notion",
+      "parent": "noi@apps",
+      "text": "Notion",
+      "url": "https://www.notion.so"
+    },
+    {
+      "id": "noi:forest",
+      "parent": "noi@apps",
+      "text": "Forest App",
+      "url": "https://www.forestapp.cc"
+    }
+  ]
 }
